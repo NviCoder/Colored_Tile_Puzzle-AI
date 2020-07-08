@@ -3,7 +3,7 @@
 ![Puzzle_tile](https://user-images.githubusercontent.com/44750316/86928663-85ca1280-c13d-11ea-809b-58097764e4e2.png)
 #### (credit for the picture: https://bit.ly/2ZRH9fl)
 
-This game implements a search engine that supports several search algorithms to solve the Puzzle Tile.
+This game implements a search problem that supports several search algorithms to solve the Puzzle Tile.
 In this game given a NxM board containing:
 1. NxM-1 tiles numbered from 1 to NxM-1.
 2. Blank tile.
