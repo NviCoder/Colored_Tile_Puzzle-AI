@@ -1,0 +1,105 @@
+input 1:
+BFS
+with time
+no open
+3x4
+Black:
+Red: 11
+1,2,3,4
+5,6,11,7
+9,10,8,_
+
+output 1:
+8R-11D-7L-8U
+Num: 21
+Cost: 33
+0.002 seconds
+
+input 2:
+
+BFS
+no time
+no open
+3x4
+Black: 7,8,11,4
+Red: 1,2
+1,2,3,4
+5,6,11,7
+9,10,8,_
+
+output 2:
+
+no path
+Num: 1
+
+input 3:
+A*
+no time
+no open
+3x4
+Black:
+Red: 11
+1,2,3,4
+5,6,11,7
+9,10,8,_
+
+
+output 3:
+8R-11D-7L-8U
+Num: 10
+Cost: 33
+
+input 4:
+IDA*
+no time
+no open
+3x4
+Black:
+Red: 11
+1,2,3,4
+5,6,11,7
+9,10,8,_
+
+output 4:
+8R-11D-7L-8U
+Num: 9
+Cost: 33
+
+
+
+
+
+//	public static void main(String[] args) {
+//		 Node v1 = new Node(this.goal,0,"NULL",this.size);
+//		 Node v2 = new Node(this.goal, 30, "NULL",this.size);
+//		 NodeEvaluationComparator comparator = new NodeEvaluationComparator();
+//		 PriorityQueue<Node> queue = new PriorityQueue<Node>(comparator);
+//		 
+//		 queue.add(v1);
+//		 queue.add(v2);
+//		 
+//		 System.out.println(queue.poll().getID());
+//		 
+//		
+//	}
+
+
+1,2,3,4
+5,6,11,7
+9,10,8,_ 
+
+>>>>8R>>>>
+1,2,3,4
+5,6,11,7
+9,10,_,8 
+
+>>>>11D>>>>
+1,2,3,4
+5,6,_,7
+9,10,11,8 
+
+
+
+
+
+
